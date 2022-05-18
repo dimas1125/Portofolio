@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background: url("image/komputer.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.header span{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 4em;
+}
+.header p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 2em;
+}
+.header a{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 1.5em;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.header a:hover{
+    background-color: white;
+    color: black;
+}
+.content{
+    width: 98%;
+    height: auto;
+    padding: 5px;
+}
+.conten span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    margin-top: 5px;
+    color: #7f8c8d;
+}
+.column{
+    float: left;
+    width: 30.8%;
+    padding: 15px;
+}
+.row{
+    width: 80%;
+    margin-bottom: 40px;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.card p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 2em;
+    color: #7f8c8d;
+}
+.fotoB{
+    width: 140px;
+    height: 120px;
+    border-radius: 70px;
+}
+.footer{
+    background-color: #2c3e50;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
